@@ -1,0 +1,90 @@
+channel 36
+bitrate 100k
+0/87 (0%) sender
+0/87 (0%) receiver
+
+channel 36
+bitrate 1m
+0/864 (0%) sender
+0/864 (0%) receiver
+
+channel 36
+bitrate 10m
+0/2139 (0%) sender
+282/2102 (13%) receiver
+
+channel 48
+bitrate 100k
+0/87 (0%) sender
+0/87 (0%) receiver
+
+channel 48
+bitrate 1m
+0/864 (0%) sender
+0/864 (0%) receiver
+
+channel 48
+bitrate 10m
+0/2297 (0%) sender
+281/2260 (12%) receiver
+
+channel 153
+bitrate 100k
+0/87 (0%) sender
+0/87 (0%) receiver
+
+channel 153
+bitrate 1m
+0/864 (0%) sender
+0/864 (0%) receiver
+
+channel 153
+bitrate 10m
+0/3751 (0%) sender
+79/3714 (2.1%) receiver
+
+channel 158
+bitrate 100k
+0/87 (0%) sender
+0/87 (0%) receiver
+
+channel 158
+bitrate 1m
+0/864 (0%) sender
+0/864 (0%) receiver
+
+channel 158
+bitrate 10m
+0/3017 (0%) sender
+134/2980 (4.5%) receiver
+
+channel 162
+bitrate 100k
+0/87 (0%) sender
+0/87 (0%) receiver
+
+channel 162
+bitrate 1m
+0/864 (0%) sender
+0/864 (0%) receiver
+
+channel 162
+bitrate 10m
+0/7671 (0%) sender
+0/7636 (0%) receiver
+
+channel 164
+bitrate 100k
+0/87 (0%) sender
+0/87 (0%) receiver
+
+channel 164
+bitrate 1m
+0/864 (0%) sender
+0/863 (0%) receiver
+
+channel 164
+bitrate 10m
+0/2122 (0%) sender
+48/2085 (2.3%) receiver
+

@@ -1,0 +1,379 @@
+---------------------------------------------------------------------
+channel 36 with iperf3 -c 192.168.200.1 -u -b 100k -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 44096 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   1.00-2.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   2.00-3.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   3.00-4.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   4.00-5.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   5.00-6.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   6.00-7.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   7.00-8.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   8.00-9.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   9.00-10.00  sec  12.7 KBytes   104 Kbits/sec  9  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.000 ms  0/87 (0%)  sender
+[  5]   0.00-10.01  sec   123 KBytes   101 Kbits/sec  3.305 ms  0/87 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 36 with iperf3 -c 192.168.200.1 -u -b 1m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 47753 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   1.00-2.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   2.00-3.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   3.00-4.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   4.00-5.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   5.00-6.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   6.00-7.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   7.00-8.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   8.00-9.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   9.00-10.00  sec   123 KBytes  1.01 Mbits/sec  87  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  1.19 MBytes  1.00 Mbits/sec  0.000 ms  0/864 (0%)  sender
+[  5]   0.00-10.01  sec  1.19 MBytes  1000 Kbits/sec  1.283 ms  0/864 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 36 with iperf3 -c 192.168.200.1 -u -b 10m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 54804 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   366 KBytes  3.00 Mbits/sec  259  
+[  5]   1.00-2.00   sec   315 KBytes  2.58 Mbits/sec  223  
+[  5]   2.00-3.00   sec   327 KBytes  2.68 Mbits/sec  231  
+[  5]   3.00-4.00   sec   318 KBytes  2.61 Mbits/sec  225  
+[  5]   4.00-5.00   sec   321 KBytes  2.63 Mbits/sec  227  
+[  5]   5.00-6.00   sec   298 KBytes  2.44 Mbits/sec  211  
+[  5]   6.00-7.00   sec   335 KBytes  2.75 Mbits/sec  237  
+[  5]   7.00-8.00   sec   322 KBytes  2.64 Mbits/sec  228  
+[  5]   8.00-9.00   sec   341 KBytes  2.79 Mbits/sec  241  
+[  5]   9.00-10.00  sec   365 KBytes  2.99 Mbits/sec  258  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  3.23 MBytes  2.71 Mbits/sec  0.000 ms  0/2340 (0%)  sender
+[  5]   0.00-10.06  sec  2.79 MBytes  2.33 Mbits/sec  6.730 ms  281/2303 (12%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 48 with iperf3 -c 192.168.200.1 -u -b 100k -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 60087 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   1.00-2.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   2.00-3.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   3.00-4.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   4.00-5.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   5.00-6.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   6.00-7.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   7.00-8.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   8.00-9.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   9.00-10.00  sec  12.7 KBytes   104 Kbits/sec  9  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.000 ms  0/87 (0%)  sender
+[  5]   0.00-10.01  sec   123 KBytes   101 Kbits/sec  2.741 ms  0/87 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 48 with iperf3 -c 192.168.200.1 -u -b 1m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 34298 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   1.00-2.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   2.00-3.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   3.00-4.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   4.00-5.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   5.00-6.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   6.00-7.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   7.00-8.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   8.00-9.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   9.00-10.00  sec   123 KBytes  1.01 Mbits/sec  87  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  1.19 MBytes  1.00 Mbits/sec  0.000 ms  0/864 (0%)  sender
+[  5]   0.00-10.02  sec  1.19 MBytes   999 Kbits/sec  0.365 ms  0/864 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 48 with iperf3 -c 192.168.200.1 -u -b 10m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 55816 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   348 KBytes  2.85 Mbits/sec  246  
+[  5]   1.00-2.00   sec   300 KBytes  2.46 Mbits/sec  212  
+[  5]   2.00-3.00   sec   310 KBytes  2.54 Mbits/sec  219  
+[  5]   3.00-4.00   sec   273 KBytes  2.24 Mbits/sec  193  
+[  5]   4.00-5.00   sec   320 KBytes  2.62 Mbits/sec  226  
+[  5]   5.00-6.00   sec   324 KBytes  2.65 Mbits/sec  229  
+[  5]   6.00-7.00   sec   344 KBytes  2.81 Mbits/sec  243  
+[  5]   7.00-8.00   sec   338 KBytes  2.77 Mbits/sec  239  
+[  5]   8.00-9.00   sec   342 KBytes  2.80 Mbits/sec  242  
+[  5]   9.00-10.00  sec   375 KBytes  3.07 Mbits/sec  265  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  3.20 MBytes  2.68 Mbits/sec  0.000 ms  0/2314 (0%)  sender
+[  5]   0.00-10.10  sec  2.76 MBytes  2.29 Mbits/sec  8.491 ms  282/2282 (12%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 153 with iperf3 -c 192.168.200.1 -u -b 100k -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 46464 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   1.00-2.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   2.00-3.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   3.00-4.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   4.00-5.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   5.00-6.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   6.00-7.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   7.00-8.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   8.00-9.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   9.00-10.00  sec  12.7 KBytes   104 Kbits/sec  9  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.000 ms  0/87 (0%)  sender
+[  5]   0.00-10.01  sec   123 KBytes   101 Kbits/sec  0.422 ms  0/87 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 153 with iperf3 -c 192.168.200.1 -u -b 1m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 38760 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   1.00-2.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   2.00-3.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   3.00-4.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   4.00-5.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   5.00-6.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   6.00-7.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   7.00-8.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   8.00-9.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   9.00-10.00  sec   123 KBytes  1.01 Mbits/sec  87  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  1.19 MBytes  1.00 Mbits/sec  0.000 ms  0/864 (0%)  sender
+[  5]   0.00-10.01  sec  1.19 MBytes  1.00 Mbits/sec  0.597 ms  0/864 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 153 with iperf3 -c 192.168.200.1 -u -b 10m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 52164 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   649 KBytes  5.32 Mbits/sec  459  
+[  5]   1.00-2.00   sec   542 KBytes  4.44 Mbits/sec  383  
+[  5]   2.00-3.00   sec   619 KBytes  5.07 Mbits/sec  438  
+[  5]   3.00-4.00   sec   634 KBytes  5.19 Mbits/sec  448  
+[  5]   4.00-5.00   sec   638 KBytes  5.22 Mbits/sec  451  
+[  5]   5.00-6.00   sec   518 KBytes  4.24 Mbits/sec  366  
+[  5]   6.00-7.00   sec   546 KBytes  4.47 Mbits/sec  386  
+[  5]   7.00-8.00   sec   479 KBytes  3.93 Mbits/sec  339  
+[  5]   8.00-9.00   sec   618 KBytes  5.06 Mbits/sec  437  
+[  5]   9.00-10.00  sec   474 KBytes  3.88 Mbits/sec  335  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  5.58 MBytes  4.68 Mbits/sec  0.000 ms  0/4042 (0%)  sender
+[  5]   0.00-10.03  sec  5.42 MBytes  4.53 Mbits/sec  3.478 ms  81/4006 (2%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 158 with iperf3 -c 192.168.200.1 -u -b 100k -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 52598 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   1.00-2.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   2.00-3.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   3.00-4.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   4.00-5.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   5.00-6.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   6.00-7.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   7.00-8.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   8.00-9.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   9.00-10.00  sec  12.7 KBytes   104 Kbits/sec  9  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.000 ms  0/87 (0%)  sender
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.810 ms  0/87 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 158 with iperf3 -c 192.168.200.1 -u -b 1m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 53196 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   1.00-2.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   2.00-3.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   3.00-4.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   4.00-5.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   5.00-6.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   6.00-7.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   7.00-8.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   8.00-9.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   9.00-10.00  sec   123 KBytes  1.01 Mbits/sec  87  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  1.19 MBytes  1.00 Mbits/sec  0.000 ms  0/864 (0%)  sender
+[  5]   0.00-10.01  sec  1.19 MBytes  1.00 Mbits/sec  0.858 ms  0/864 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 158 with iperf3 -c 192.168.200.1 -u -b 10m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 55013 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   641 KBytes  5.25 Mbits/sec  453  
+[  5]   1.00-2.00   sec   595 KBytes  4.88 Mbits/sec  421  
+[  5]   2.00-3.00   sec   585 KBytes  4.80 Mbits/sec  414  
+[  5]   3.00-4.00   sec   578 KBytes  4.74 Mbits/sec  409  
+[  5]   4.00-5.00   sec   590 KBytes  4.83 Mbits/sec  417  
+[  5]   5.00-6.00   sec   571 KBytes  4.68 Mbits/sec  404  
+[  5]   6.00-7.00   sec   468 KBytes  3.83 Mbits/sec  331  
+[  5]   7.00-8.00   sec   628 KBytes  5.14 Mbits/sec  444  
+[  5]   8.00-9.00   sec   567 KBytes  4.65 Mbits/sec  401  
+[  5]   9.00-10.00  sec   568 KBytes  4.66 Mbits/sec  402  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  5.66 MBytes  4.74 Mbits/sec  0.000 ms  0/4096 (0%)  sender
+[  5]   0.00-10.06  sec  5.50 MBytes  4.59 Mbits/sec  2.403 ms  78/4064 (1.9%)  receiver
+
+iperf Done.
+
+---------------------------------------------------------------------
+channel 162 with iperf3 -c 192.168.200.1 -u -b 100k -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 58850 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   1.00-2.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   2.00-3.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   3.00-4.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   4.00-5.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   5.00-6.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   6.00-7.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   7.00-8.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   8.00-9.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   9.00-10.00  sec  12.7 KBytes   104 Kbits/sec  9  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.000 ms  0/87 (0%)  sender
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.098 ms  0/87 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 162 with iperf3 -c 192.168.200.1 -u -b 1m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 36167 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   1.00-2.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   2.00-3.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   3.00-4.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   4.00-5.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   5.00-6.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   6.00-7.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   7.00-8.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   8.00-9.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   9.00-10.00  sec   123 KBytes  1.01 Mbits/sec  87  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  1.19 MBytes  1.00 Mbits/sec  0.000 ms  0/864 (0%)  sender
+[  5]   0.00-10.00  sec  1.19 MBytes  1.00 Mbits/sec  0.085 ms  0/864 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 162 with iperf3 -c 192.168.200.1 -u -b 10m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 60183 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  1.17 MBytes  9.80 Mbits/sec  846  
+[  5]   1.00-2.00   sec  1.09 MBytes  9.17 Mbits/sec  792  
+[  5]   2.00-3.00   sec  1.09 MBytes  9.13 Mbits/sec  788  
+[  5]   3.00-4.00   sec  1.10 MBytes  9.21 Mbits/sec  795  
+[  5]   4.00-5.00   sec  1.09 MBytes  9.13 Mbits/sec  788  
+[  5]   5.00-6.00   sec  1.11 MBytes  9.28 Mbits/sec  801  
+[  5]   6.00-7.00   sec   983 KBytes  8.05 Mbits/sec  695  
+[  5]   7.00-8.00   sec  1.02 MBytes  8.54 Mbits/sec  737  
+[  5]   8.00-9.00   sec  1.03 MBytes  8.64 Mbits/sec  746  
+[  5]   9.00-10.00  sec  1.04 MBytes  8.72 Mbits/sec  753  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  10.7 MBytes  8.97 Mbits/sec  0.000 ms  0/7741 (0%)  sender
+[  5]   0.00-10.02  sec  10.3 MBytes  8.64 Mbits/sec  0.718 ms  234/7704 (3%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 164 with iperf3 -c 192.168.200.1 -u -b 100k -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 39966 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   1.00-2.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   2.00-3.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   3.00-4.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   4.00-5.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   5.00-6.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   6.00-7.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   7.00-8.00   sec  12.7 KBytes   104 Kbits/sec  9  
+[  5]   8.00-9.00   sec  11.3 KBytes  92.7 Kbits/sec  8  
+[  5]   9.00-10.00  sec  12.7 KBytes   104 Kbits/sec  9  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.000 ms  0/87 (0%)  sender
+[  5]   0.00-10.00  sec   123 KBytes   101 Kbits/sec  0.556 ms  0/87 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 164 with iperf3 -c 192.168.200.1 -u -b 1m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 55766 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   1.00-2.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   2.00-3.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   3.00-4.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   4.00-5.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   5.00-6.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   6.00-7.00   sec   123 KBytes  1.01 Mbits/sec  87  
+[  5]   7.00-8.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   8.00-9.00   sec   122 KBytes   996 Kbits/sec  86  
+[  5]   9.00-10.00  sec   123 KBytes  1.01 Mbits/sec  87  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  1.19 MBytes  1.00 Mbits/sec  0.000 ms  0/864 (0%)  sender
+[  5]   0.00-10.01  sec  1.19 MBytes  1.00 Mbits/sec  0.111 ms  0/864 (0%)  receiver
+
+iperf Done.
+---------------------------------------------------------------------
+channel 164 with iperf3 -c 192.168.200.1 -u -b 10m -t 10 testing:
+Connecting to host 192.168.200.1, port 5201
+[  5] local 192.168.200.39 port 52192 connected to 192.168.200.1 port 5201
+[ ID] Interval           Transfer     Bitrate         Total Datagrams
+[  5]   0.00-1.00   sec  1.08 MBytes  9.02 Mbits/sec  779  
+[  5]   1.00-2.00   sec  1.08 MBytes  9.08 Mbits/sec  784  
+[  5]   2.00-3.00   sec  1.12 MBytes  9.37 Mbits/sec  809  
+[  5]   3.00-4.00   sec  1.06 MBytes  8.90 Mbits/sec  768  
+[  5]   4.00-5.00   sec  1.07 MBytes  8.98 Mbits/sec  775  
+[  5]   5.00-6.00   sec  1.06 MBytes  8.86 Mbits/sec  765  
+[  5]   6.00-7.00   sec  1.10 MBytes  9.19 Mbits/sec  793  
+[  5]   7.00-8.00   sec  1.07 MBytes  9.01 Mbits/sec  778  
+[  5]   8.00-9.00   sec   923 KBytes  7.56 Mbits/sec  653  
+[  5]   9.00-10.00  sec  1.05 MBytes  8.78 Mbits/sec  758  
+- - - - - - - - - - - - - - - - - - - - - - - - -
+[ ID] Interval           Transfer     Bitrate         Jitter    Lost/Total Datagrams
+[  5]   0.00-10.00  sec  10.6 MBytes  8.88 Mbits/sec  0.000 ms  0/7662 (0%)  sender
+[  5]   0.00-10.02  sec  10.5 MBytes  8.83 Mbits/sec  0.684 ms  0/7630 (0%)  receiver
+
+iperf Done.
